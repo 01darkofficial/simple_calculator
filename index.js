@@ -168,7 +168,7 @@ minus.addEventListener('click', () => {
 multiply.addEventListener('click', () => {
     if (arith_opr == 0) {
         dot = 0;
-        output = (output + '-').replace(/\s/g, '');
+        output = (output + '*').replace(/\s/g, '');
         arith_opr++;
         input.textContent = output
     }
@@ -178,7 +178,7 @@ multiply.addEventListener('click', () => {
 divide.addEventListener('click', () => {
     if (arith_opr == 0) {
         dot = 0;
-        output = (output + '-').replace(/\s/g, '');
+        output = (output + '/').replace(/\s/g, '');
         arith_opr++;
         input.textContent = output;
     }
